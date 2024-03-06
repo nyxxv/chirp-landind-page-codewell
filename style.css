@@ -87,3 +87,39 @@ strong {
     width: 30%;
     padding-bottom: 5%;  
 }
+.secundario {
+    background-color: #ffffff;
+    padding: 5% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.secundario__titulo {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 2%;
+}
+.box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 60px;
+}
+.secundario__caixa {
+    padding: 3%;
+    border: 1px solid var(--cinza);
+}
+.emoji {
+    font-size: 2rem;
+}
+.caixa__titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+}
+.caixa__texto {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cinza);
+}
